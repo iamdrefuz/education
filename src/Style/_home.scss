@@ -1,0 +1,82 @@
+.main_content{ 
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-around;
+.main_conent__media{
+    display: flex;
+    .shape-line{
+        width: 80px;
+        height:80px;
+        right: 40px;
+        top: 338px;
+        border: 6px solid #FFC27A;
+        transform: rotate(-174.43deg);
+        position: absolute;
+        animation: shape-anim 12s linear infinite;
+        
+    }
+    @keyframes shape-anim{
+        50%{
+            transform: rotate(180deg);
+        }
+    }
+}
+.shape-star{
+    svg{
+        font-size: $text_lg;
+        color: $primary_color;
+        animation: star-anim 5s linear infinite;
+    }
+    @keyframes star-anim{
+        50%{
+            transform: scale(1.4);
+        }
+    }
+}
+.line-vector{
+    position: absolute;
+    top:250px;
+    z-index: -3;
+    left: 30px;
+    animation: line-anim 3s linear infinite;
+}
+@keyframes line-anim {
+    50%{
+        top: 240px;
+        left: 50px;
+    }
+}
+
+.sub-title{
+    color: $primary_color;
+    font-size: $text_md;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: $text_xxl;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.text-prim
+{
+    color: $primary_color;
+}
+.description{
+    font-size: $text_sm;
+    color: $color_gray;
+    margin-bottom: 15px;
+}
+.search-input{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: transparent;
+    filter: drop-shadow(-4px -4px 44px rgba(0, 0, 0, 0.08));
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: $rounded_sm;
+    padding-left: 20px;
+    color: $color_gray;
+}
+
+}

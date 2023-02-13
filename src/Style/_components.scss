@@ -1,0 +1,60 @@
+// ========================Colors=============================//
+
+$primary_color:#20B486;
+$secondary_color :#FFC27A;
+$background_color:#E5E5E5;
+$background_secondary_color:#FFFAF5;
+$background_color_primary:#E9F8F3;
+$color_gray:#6D737A;
+$color_white:#ffff;
+
+// =========================FontSizes============================//
+
+$text_sm:14px;
+$text_md:18px;
+$text_lg:20px;
+$text_xl:35px;
+$text_xxl:40px;
+
+//======================Boreder-radius=====================//
+
+$rounded_sm:5px;
+$rounded_md:10px;
+
+// ===============Instuctes===============//
+
+.container{
+    padding: 0 150px;
+}
+
+
+.btn_secondary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    color: $color_gray;
+    font-weight: 500;
+    font-size: $text_md;
+    line-height: 24px;
+    font-style: normal;
+}
+.btn_primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:12px 24px;
+    color: $color_gray;
+    background-color: $primary_color;
+    border-radius: $rounded_sm;
+    color: $color_white;
+}
+.lock_nav{
+    font-weight: bold;
+    font-size: $text_md;
+}
+
+// ==============Padding================//
+
+$py:12px;
+$px:24px

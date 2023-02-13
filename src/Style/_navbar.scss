@@ -1,0 +1,28 @@
+@import 'components';
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    .navbar_menu{
+       display: flex;
+       gap: 10px;
+       .navbar_list{
+        .navbar_link{
+            font-weight: 400;
+            font-size: $text_md;
+            color: $color_gray;
+            transition: .3s;
+            padding: $py $px;
+            &:hover{
+                color: $primary_color;
+            }
+        }
+       }
+    }
+    .actions{
+        display: flex;
+        gap:10px
+    }
+
+}
