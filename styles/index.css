@@ -87,10 +87,43 @@
   font-size: 18px;
 }
 
+.container {
+  padding: 0 150px;
+}
+
+.btn_secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  color: #6D737A;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.btn_primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  color: #6D737A;
+  background-color: #20B486;
+  border-radius: 5px;
+  color: white;
+}
+
+.lock_nav {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .main_content {
   margin-top: 74px;
   display: flex;
   justify-content: space-around;
+  height: 100vh;
 }
 .main_content .main_conent__media {
   display: flex;
@@ -183,6 +216,42 @@
   color: #6D737A;
 }
 
+.cources {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(233, 248, 243, 0.7);
+  gap: 50px;
+  height: 100vh;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.shape-lin {
+  position: absolute;
+  left: 270px;
+  bottom: -370px;
+  -webkit-animation: anim-lin 5s linear infinite;
+          animation: anim-lin 5s linear infinite;
+}
+
+@-webkit-keyframes anim-lin {
+  50% {
+    left: 220px;
+  }
+}
+
+@keyframes anim-lin {
+  50% {
+    left: 220px;
+  }
+}
+.card-desc {
+  margin-top: 10px;
+}
+
 .container {
   padding: 0 150px;
 }
@@ -215,6 +284,149 @@
   font-size: 18px;
 }
 
+.container {
+  padding: 0 150px;
+}
+
+.btn_secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  color: #6D737A;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.btn_primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  color: #6D737A;
+  background-color: #20B486;
+  border-radius: 5px;
+  color: white;
+}
+
+.lock_nav {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main_content {
+  margin-top: 74px;
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+.main_content .main_conent__media {
+  display: flex;
+}
+.main_content .main_conent__media .shape-line {
+  width: 80px;
+  height: 80px;
+  right: 40px;
+  top: 338px;
+  border: 6px solid #FFC27A;
+  transform: rotate(-174.43deg);
+  position: absolute;
+  -webkit-animation: shape-anim 12s linear infinite;
+          animation: shape-anim 12s linear infinite;
+}
+@keyframes shape-anim {
+  50% {
+    transform: rotate(180deg);
+  }
+}
+.main_content .shape-star svg {
+  font-size: 20px;
+  color: #20B486;
+  -webkit-animation: star-anim 5s linear infinite;
+          animation: star-anim 5s linear infinite;
+}
+@keyframes star-anim {
+  50% {
+    transform: scale(1.4);
+  }
+}
+.main_content .line-vector {
+  position: absolute;
+  top: 250px;
+  z-index: -3;
+  left: 30px;
+  -webkit-animation: line-anim 3s linear infinite;
+          animation: line-anim 3s linear infinite;
+}
+@keyframes line-anim {
+  50% {
+    top: 240px;
+    left: 50px;
+  }
+}
+.main_content .sub-title {
+  color: #20B486;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.main_content .title {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.main_content .text-prim {
+  color: #20B486;
+}
+.main_content .description {
+  font-size: 14px;
+  color: #6D737A;
+  margin-bottom: 15px;
+}
+.main_content .search-input {
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background: transparent;
+  filter: drop-shadow(-4px -4px 44px rgba(0, 0, 0, 0.08));
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding-left: 20px;
+  color: #6D737A;
+}
+
+.cources {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(233, 248, 243, 0.7);
+  gap: 50px;
+  height: 100vh;
+}
+
+.title {
+  font-size: 35px;
+}
+
+.shape-lin {
+  position: absolute;
+  left: 270px;
+  bottom: -370px;
+  -webkit-animation: anim-lin 5s linear infinite;
+          animation: anim-lin 5s linear infinite;
+}
+
+@keyframes anim-lin {
+  50% {
+    left: 220px;
+  }
+}
+.card-desc {
+  margin-top: 10px;
+}
+
 .navbar-card_first {
   width: 250px;
   height: 340px;
@@ -243,6 +455,7 @@
   justify-content: center;
   padding-right: 0px;
   padding: 30px;
+  font-size: 25px;
   align-items: center;
   font-weight: 500;
   color: white;
@@ -281,6 +494,7 @@
   width: 360px;
   height: 60px;
   margin-top: 30px;
+  font-size: 25px;
   background-color: #FFC27A;
   transform: rotate(30deg);
   display: flex;

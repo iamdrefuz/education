@@ -16,13 +16,13 @@ const Maincontent = () => {
             </div>
             <div className='main_conent__media'>
                 <div className='navbar-card_first'>
-                   <div className='brid-bg'>Web development</div>
+                   <div className='brid-bg'>100+ cources</div>
                    <div className='bg-shape'></div>
                     <img className='user-img' src={User2}/>
                    
                 </div>
                 <div className='navbar-card_second'>
-                <div className='brid-bg'>Android development</div> 
+                <div className='brid-bg'>Certificates</div> 
                 <div className='bg-shape'></div>
                 <img className='user-img' src={User}/>
                 </div>
