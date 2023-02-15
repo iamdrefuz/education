@@ -34,7 +34,7 @@ export default function MostPopularCouce() {
         className="mySwiper"
       >
    
-       <div className="swiper-container">
+       <div className="swiper container">
         {cources.map((item)=>{
             return(
                 <SwiperSlide key={item.id}><CourceCards category={item.category} image={item.image} money={item.money} mentor={item.mentor} raiting={item.raiting} price={item.price} link={item.link} tajriba={item.tajriba}/></SwiperSlide>

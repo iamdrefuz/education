@@ -67,6 +67,7 @@
     font-size: $text_sm;
     color: $color_gray;
     margin-bottom: 15px;
+    color: $color_gray;
 }
 .search-input{
     width: 400px;
@@ -87,7 +88,7 @@
     justify-content: space-around;
     align-items: center;
     background: rgba(233, 248, 243, 0.7); 
-    gap :50px;
+    gap :100px;
     height: 100vh;
 }
 .title {
@@ -98,6 +99,7 @@
     left: 270px;
     bottom: -370px;
     animation: anim-lin 5s linear infinite;
+    
 
 }
 
@@ -109,4 +111,7 @@
 }
 .card-desc{
     margin-top: 10px;
+}
+.pl-15{
+    padding-left: 150px;
 }
