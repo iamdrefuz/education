@@ -50,7 +50,7 @@ export const categories = [
     {
         id:9,
         title: 'Office dasturlari',
-        empty:true,
+        empty:false,
         link:'/'
     },
     {

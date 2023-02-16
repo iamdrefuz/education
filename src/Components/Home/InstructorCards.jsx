@@ -8,8 +8,8 @@ const InstructorCards = (props) => {
            <div className='card-img-sett2'>
               <img className='user-image2'  src={props.img}/>
            </div>
-            <div className='card-desc'>{props.name}</div>
-            <div className='card-raiting'>{props.job}</div>
+            <div className='card-name'>{props.name}</div>
+            <div className='card-job'>{props.job}</div>
 
             
         </div>

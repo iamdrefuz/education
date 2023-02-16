@@ -89,9 +89,6 @@
   .swiper-button-prev::after{
     font-size: 20px;
   }
-  .hel {
-    height: 100px;
-  }
   .swiper-pagination-bullet-active {
     background-color: $primary_color !important;
 }
@@ -139,8 +136,9 @@
 
   transition: .3s;
   .user-image{
-    width: 250px;
+    width: 225px !important;
     height: 170px;
+    margin: 0 auto;
   }
 }
 

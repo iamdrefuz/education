@@ -29,7 +29,7 @@
     border-radius: 10px;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
   .swiper-slide.swiper-slide-active{
     padding: 10px;
@@ -50,6 +50,7 @@
     margin: 0 !important;
 
   }
+
   .append-buttons {
     text-align: center;
     margin-top: 20px;
@@ -136,7 +137,7 @@
   transition: .3s;
   .user-image2{
     width: 270px;
-    height: 170px;
+    height: 240px;
   }
 }
 .swiper-wrapper{
@@ -144,4 +145,27 @@
     width: 100%;
     margin: 0;
     transition-duration: 0ms; transform: translate3d(120.5px, 0px, 0px) ;
+}
+
+
+.card-name{
+  text-align: center;
+  font-size: calc($text-sm + 3px);
+  margin-top: 10px;
+  font-weight: 500;
+}
+.card-job{
+  font-size: $text-sm;
+  text-align: center;
+  margin-top: 8px;
+
+}
+.instructors{
+  background-color: $background_color_primary;
+  height: 100vh;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.mt-5{
+  margin-top: 50px;
 }

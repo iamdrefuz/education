@@ -21,7 +21,7 @@ const Home = () => {
              <MostPopularCouce/>
              </div>
              <MostPopularCategories/>
-             <div className='container'><Instructors/></div>
+             <div className='container instructors'><Instructors/></div>
          </>
     );
 };
