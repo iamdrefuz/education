@@ -7,7 +7,7 @@ import {CiNoWaitingSign} from 'react-icons/ci'
 const MostPopularCategories = () => {
     return (
         <div className='categories container'>
-            <div className='title'>Most <span className='text-prim'>Popular Categorys</span></div>
+            <div className='title mt-5'>Most <span className='text-prim'>Popular Categories</span></div>
             <p className='desc mb-5'>
             Various versions have evolved over the years, sometimes by accident,
             </p>

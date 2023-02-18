@@ -1,0 +1,53 @@
+@import 'components';
+.student-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    .student-card{
+        width: 640px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 300px;
+        box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.05);
+        border-radius: 30px;
+        padding: 20px;
+        &:hover{
+            box-shadow: 3px 3px 7px 7px rgba(0,0,0,0.05);
+        }
+        .student-header{
+        .student-info{
+            display: flex;
+            gap: 20px;
+            .student-img{
+                border-radius: 50%;
+                overflow: hidden;
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 70px;
+                    height: 70px;
+                    
+                }
+            }
+            .student-name{
+                .name{
+                    font-size: 30px;
+                }
+                .bio{
+                    font-size: calc($text_sm + 3px);
+                }
+            }
+        }
+    }
+  
+}
+}
+.student-body{
+    font-size: 18px;
+    color: $color_gray;
+    text-align:left;
+}

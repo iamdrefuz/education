@@ -1,6 +1,7 @@
 .container {
-  padding: 0 150px;
+  padding: 0 10%;
   margin: 0 auto;
+  width: 100%;
 }
 
 .btn_secondary {
@@ -36,6 +37,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px !important;
+  margin-bottom: -100px !important;
 }
 .navbar .navbar_menu {
   display: flex;
@@ -57,8 +59,9 @@
 }
 
 .container {
-  padding: 0 150px;
+  padding: 0 10%;
   margin: 0 auto;
+  width: 100%;
 }
 
 .btn_secondary {
@@ -90,8 +93,9 @@
 }
 
 .container {
-  padding: 0 150px;
+  padding: 0 10%;
   margin: 0 auto;
+  width: 100%;
 }
 
 .btn_secondary {
@@ -222,15 +226,16 @@
 
 .cources {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background: rgba(233, 248, 243, 0.7);
-  gap: 100px;
+  gap: 0px;
   height: 100vh;
 }
 
 .title {
   font-size: 35px;
+  margin-right: 200px;
 }
 
 .shape-lin {
@@ -261,8 +266,9 @@
 }
 
 .container {
-  padding: 0 150px;
+  padding: 0 10%;
   margin: 0 auto;
+  width: 100%;
 }
 
 .btn_secondary {
@@ -294,8 +300,9 @@
 }
 
 .container {
-  padding: 0 150px;
+  padding: 0 10%;
   margin: 0 auto;
+  width: 100%;
 }
 
 .btn_secondary {
@@ -410,15 +417,16 @@
 
 .cources {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background: rgba(233, 248, 243, 0.7);
-  gap: 100px;
+  gap: 0px;
   height: 100vh;
 }
 
 .title {
   font-size: 35px;
+  margin-right: 200px;
 }
 
 .shape-lin {
@@ -532,8 +540,9 @@
 }
 
 .container {
-  padding: 0 150px;
+  padding: 0 10%;
   margin: 0 auto;
+  width: 100%;
 }
 
 .btn_secondary {
@@ -744,6 +753,216 @@ body {
 
 .mt-5 {
   margin-top: 50px;
+}
+
+.container {
+  padding: 0 10%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.btn_secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  color: #6D737A;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.btn_primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  color: #6D737A;
+  background-color: #20B486;
+  border-radius: 5px;
+  color: white;
+}
+
+.lock_nav {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main-achievements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-achievements .achievements_info {
+  display: grid;
+  box-sizing: border-box;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 230px;
+       column-gap: 230px;
+  row-gap: 20px;
+}
+.main-achievements .achievements_info .achieavement_info_category {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  gap: 20px;
+}
+.main-achievements .achievements_info .achieavement_info_category :nth-child(1).icon {
+  font-size: 40px;
+  background-color: #E9F8F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #20B486;
+}
+.main-achievements .achievements_info .achieavement_info_category :nth-child(3).icon {
+  font-size: 40px;
+  background-color: #E9F8F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #20B486;
+}
+.main-achievements .achievements_info .achieavement_info_category :nth-child(5).icon {
+  font-size: 40px;
+  background-color: #E9F8F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #20B486;
+}
+.main-achievements .achievements_info .achieavement_info_category :nth-child(7).icon {
+  font-size: 40px;
+  background-color: #E9F8F3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #20B486;
+}
+.main-achievements .achievements_info .achieavement_info_category .info_box .info-title {
+  font-size: 23px;
+  font-weight: 500;
+}
+.main-achievements .achievements_media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-achievements .achievements_media .main-box {
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  width: 320px;
+}
+.main-achievements .achievements_media .main-box .ach-media_box {
+  display: flex;
+  align-items: flex-end;
+  width: 270px;
+  height: 310px;
+  background-color: #FFC27A;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+.main-achievements .achievements_media .main-box .ach-media_box img {
+  height: 370px;
+  transition: 0.3s;
+}
+.main-achievements .achievements_media .main-box .ach-media_box:hover {
+  background-color: #20B486;
+}
+.main-achievements .achievements_media .main-box .ach-media_box:hover img {
+  height: 400px;
+}
+
+.container {
+  padding: 0 10%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.btn_secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  color: #6D737A;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.btn_primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  color: #6D737A;
+  background-color: #20B486;
+  border-radius: 5px;
+  color: white;
+}
+
+.lock_nav {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.student-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.student-cards .student-card {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 300px;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  padding: 20px;
+}
+.student-cards .student-card:hover {
+  box-shadow: 3px 3px 7px 7px rgba(0, 0, 0, 0.05);
+}
+.student-cards .student-card .student-header .student-info {
+  display: flex;
+  gap: 20px;
+}
+.student-cards .student-card .student-header .student-info .student-img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.student-cards .student-card .student-header .student-info .student-img img {
+  width: 70px;
+  height: 70px;
+}
+.student-cards .student-card .student-header .student-info .student-name .name {
+  font-size: 30px;
+}
+.student-cards .student-card .student-header .student-info .student-name .bio {
+  font-size: 17px;
+}
+
+.student-body {
+  font-size: 18px;
+  color: #6D737A;
+  text-align: left;
 }
 
 * {

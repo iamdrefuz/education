@@ -26,7 +26,7 @@ export const cources = [
         category: "Backend",
         image:'',
         mentor: "Feruzbek Jumaboyev",
-        raiting:5,
+        raiting:5,  
         tajriba:"5 yil",
         price: '600.000',
         money:'uzs',

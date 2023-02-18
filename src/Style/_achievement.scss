@@ -1,0 +1,99 @@
+@import 'components';
+.main-achievements{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+.achievements_info{
+    display: grid ;
+    box-sizing: border-box;
+    grid-template-columns:auto auto  ;
+    column-gap: 230px;
+    row-gap: 20px;
+    
+.achieavement_info_category{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    gap: 20px;
+    :nth-child(1).icon{
+        font-size: 40px;
+        background-color: $background_color_primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: $rounded_md;
+        color: $primary_color;
+    };
+    :nth-child(3).icon{
+        font-size: 40px;
+        background-color: $background_color_primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: $rounded_md;
+        color: $primary_color;
+    }
+    :nth-child(5).icon{
+        font-size: 40px;
+        background-color: $background_color_primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: $rounded_md;
+        color: $primary_color;
+    }
+    :nth-child(7).icon{
+        font-size: 40px;
+        background-color: $background_color_primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: $rounded_md;
+        color: $primary_color;
+    }
+    .info_box{
+        .info-title{
+            font-size:calc($text_md + 5px) ;
+            font-weight: 500;
+        }
+    }
+}
+}
+.achievements_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .main-box{
+        height: 400px;
+        display: flex;
+        align-items: flex-end;
+        width: 320px;
+    .ach-media_box{
+        display: flex;
+        align-items: flex-end;
+        width: 270px;
+        height: 310px;
+        background-color: $secondary_color;
+        border-radius: 40px;
+        transition: .3s;
+        
+        img{
+            height: 370px;
+            transition: .3s;
+        }
+    }
+    .ach-media_box:hover{
+        background-color: $primary_color;
+        img{
+            height: 400px;
+        }
+    }
+
+ 
+}
+}
+}

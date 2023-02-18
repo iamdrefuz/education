@@ -13,7 +13,7 @@ import { instructors } from "../data_components/Instructor";
 
 export default function Instructors() {
   return (
-    <>
+    <div className="container">
     <div className=" title mt-5">Our <span className="text-prim">Best Instructor</span></div>
     <div className="desc">Various versions have evolved over the years, sometimes by accident,</div>
       <Swiper
@@ -34,7 +34,7 @@ export default function Instructors() {
         })
       }
       </Swiper>
-    </>
+    </div>
   );
 }
 

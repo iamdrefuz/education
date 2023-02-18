@@ -22,7 +22,7 @@ export default function MostPopularCouce() {
     <>
       <Swiper 
         onSwiper={setSwiperRef}
-        slidesPerView={4}
+        slidesPerView={cources.length}
         centeredSlides={true}
         spaceBetween={30}
         
@@ -33,8 +33,10 @@ export default function MostPopularCouce() {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
+      
    
-       <div className="swiper container">
+       <div className="swiper">
+
         {cources.map((item)=>{
             return(
                 <SwiperSlide key={item.id}><CourceCards category={item.category} image={item.image} money={item.money} mentor={item.mentor} raiting={item.raiting} price={item.price} link={item.link} tajriba={item.tajriba}/></SwiperSlide>

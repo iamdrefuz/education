@@ -7,13 +7,15 @@ import Shape2 from '../Assets/Group 96.png'
 import '../../Style/_home.scss'
 import MostPopularCategories from './MostPopularCategories';
 import Instructors from './Instructors.jsx';
+import Achievement from './Achievement';
+import StudentFeedback from './StudentFeedback';
 const Home = () => {
     return (
          <>
              <Navbar/>
              <Maincontent/>
-             <div className='cources'>
-             <div className='title pl-15'>
+             <div className='cources container'>
+             <div className='title'>
              <div className='shape-lin'><img src={Shape1}/></div>
                  Most <br/> <sapn className="text-prim">Popular</sapn> <br/>
                 <span className='text-prim'>Course</span>
@@ -21,7 +23,9 @@ const Home = () => {
              <MostPopularCouce/>
              </div>
              <MostPopularCategories/>
-             <div className='container instructors'><Instructors/></div>
+             <div className='instructors'><Instructors/></div>
+             <Achievement/>
+             <StudentFeedback/>
          </>
     );
 };
